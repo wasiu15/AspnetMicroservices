@@ -17,7 +17,7 @@ builder.Services.AddStackExchangeRedisCache(options =>
 
 
 var configuration = builder.Configuration;
-
+ 
 // General Configuration
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddAutoMapper(typeof(Program));
